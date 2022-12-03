@@ -3,9 +3,9 @@ package asttransform
 import (
 	"bytes"
 
-	"github.com/wundergraph/graphql-go-tools/pkg/ast"
-	"github.com/wundergraph/graphql-go-tools/pkg/astparser"
-	"github.com/wundergraph/graphql-go-tools/pkg/operationreport"
+	"github.com/daniil-kzn/graphql-go-tools/pkg/ast"
+	"github.com/daniil-kzn/graphql-go-tools/pkg/astparser"
+	"github.com/daniil-kzn/graphql-go-tools/pkg/operationreport"
 )
 
 func MergeDefinitionWithBaseSchema(definition *ast.Document) error {

@@ -6,7 +6,7 @@ import (
 	"github.com/99designs/gqlgen/graphql/handler"
 	"github.com/99designs/gqlgen/graphql/handler/debug"
 
-	"github.com/wundergraph/graphql-go-tools/pkg/testing/federationtesting/accounts/graph/generated"
+	"github.com/daniil-kzn/graphql-go-tools/pkg/testing/federationtesting/accounts/graph/generated"
 )
 
 type EndpointOptions struct {

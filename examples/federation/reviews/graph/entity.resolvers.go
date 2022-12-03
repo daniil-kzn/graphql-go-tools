@@ -6,8 +6,8 @@ package graph
 import (
 	"context"
 
-	"github.com/wundergraph/graphql-go-tools/examples/federation/reviews/graph/generated"
-	"github.com/wundergraph/graphql-go-tools/examples/federation/reviews/graph/model"
+	"github.com/daniil-kzn/graphql-go-tools/examples/federation/reviews/graph/generated"
+	"github.com/daniil-kzn/graphql-go-tools/examples/federation/reviews/graph/model"
 )
 
 func (r *entityResolver) FindProductByUpc(ctx context.Context, upc string) (*model.Product, error) {

@@ -7,8 +7,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/wundergraph/graphql-go-tools/examples/federation/reviews/graph/generated"
-	"github.com/wundergraph/graphql-go-tools/examples/federation/reviews/graph/model"
+	"github.com/daniil-kzn/graphql-go-tools/examples/federation/reviews/graph/generated"
+	"github.com/daniil-kzn/graphql-go-tools/examples/federation/reviews/graph/model"
 )
 
 func (r *productResolver) Reviews(ctx context.Context, obj *model.Product) ([]*model.Review, error) {

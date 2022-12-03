@@ -6,7 +6,7 @@ import (
 
 	"github.com/jensneuse/abstractlogger"
 
-	"github.com/wundergraph/graphql-go-tools/pkg/engine/plan"
+	"github.com/daniil-kzn/graphql-go-tools/pkg/engine/plan"
 )
 
 type Planner struct {

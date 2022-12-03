@@ -1,17 +1,18 @@
 package ast
 
 import (
-	"github.com/wundergraph/graphql-go-tools/internal/pkg/unsafebytes"
-	"github.com/wundergraph/graphql-go-tools/pkg/lexer/position"
+	"github.com/daniil-kzn/graphql-go-tools/internal/pkg/unsafebytes"
+	"github.com/daniil-kzn/graphql-go-tools/pkg/lexer/position"
 )
 
 // InlineFragment
 // example:
-// ... on User {
-//      friends {
-//        count
-//      }
-//    }
+//
+//	... on User {
+//	     friends {
+//	       count
+//	     }
+//	   }
 type InlineFragment struct {
 	Spread        position.Position // ...
 	TypeCondition TypeCondition     // on NamedType, e.g. on User

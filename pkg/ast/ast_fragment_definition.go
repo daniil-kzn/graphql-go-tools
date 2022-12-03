@@ -3,8 +3,8 @@ package ast
 import (
 	"bytes"
 
-	"github.com/wundergraph/graphql-go-tools/internal/pkg/unsafebytes"
-	"github.com/wundergraph/graphql-go-tools/pkg/lexer/position"
+	"github.com/daniil-kzn/graphql-go-tools/internal/pkg/unsafebytes"
+	"github.com/daniil-kzn/graphql-go-tools/pkg/lexer/position"
 )
 
 // TypeCondition
@@ -17,11 +17,12 @@ type TypeCondition struct {
 
 // FragmentDefinition
 // example:
-// fragment friendFields on User {
-//  id
-//  name
-//  profilePic(size: 50)
-// }
+//
+//	fragment friendFields on User {
+//	 id
+//	 name
+//	 profilePic(size: 50)
+//	}
 type FragmentDefinition struct {
 	FragmentLiteral position.Position  // fragment
 	Name            ByteSliceReference // Name but not on, e.g. friendFields

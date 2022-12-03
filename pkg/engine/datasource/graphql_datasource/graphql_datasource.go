@@ -9,20 +9,20 @@ import (
 	"net/http"
 
 	"github.com/buger/jsonparser"
+	"github.com/daniil-kzn/graphql-go-tools/pkg/astvalidation"
 	"github.com/tidwall/sjson"
-	"github.com/wundergraph/graphql-go-tools/pkg/astvalidation"
 
-	"github.com/wundergraph/graphql-go-tools/pkg/ast"
-	"github.com/wundergraph/graphql-go-tools/pkg/astnormalization"
-	"github.com/wundergraph/graphql-go-tools/pkg/astparser"
-	"github.com/wundergraph/graphql-go-tools/pkg/astprinter"
-	"github.com/wundergraph/graphql-go-tools/pkg/asttransform"
-	"github.com/wundergraph/graphql-go-tools/pkg/engine/datasource/httpclient"
-	"github.com/wundergraph/graphql-go-tools/pkg/engine/plan"
-	"github.com/wundergraph/graphql-go-tools/pkg/engine/resolve"
-	"github.com/wundergraph/graphql-go-tools/pkg/federation"
-	"github.com/wundergraph/graphql-go-tools/pkg/lexer/literal"
-	"github.com/wundergraph/graphql-go-tools/pkg/operationreport"
+	"github.com/daniil-kzn/graphql-go-tools/pkg/ast"
+	"github.com/daniil-kzn/graphql-go-tools/pkg/astnormalization"
+	"github.com/daniil-kzn/graphql-go-tools/pkg/astparser"
+	"github.com/daniil-kzn/graphql-go-tools/pkg/astprinter"
+	"github.com/daniil-kzn/graphql-go-tools/pkg/asttransform"
+	"github.com/daniil-kzn/graphql-go-tools/pkg/engine/datasource/httpclient"
+	"github.com/daniil-kzn/graphql-go-tools/pkg/engine/plan"
+	"github.com/daniil-kzn/graphql-go-tools/pkg/engine/resolve"
+	"github.com/daniil-kzn/graphql-go-tools/pkg/federation"
+	"github.com/daniil-kzn/graphql-go-tools/pkg/lexer/literal"
+	"github.com/daniil-kzn/graphql-go-tools/pkg/operationreport"
 )
 
 type Planner struct {

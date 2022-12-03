@@ -7,7 +7,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/wundergraph/graphql-go-tools/pkg/starwars"
+	"github.com/daniil-kzn/graphql-go-tools/pkg/starwars"
 )
 
 func TestUnmarshalRequest(t *testing.T) {

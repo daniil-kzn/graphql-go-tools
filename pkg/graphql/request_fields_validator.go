@@ -3,7 +3,7 @@ package graphql
 import (
 	"fmt"
 
-	"github.com/wundergraph/graphql-go-tools/pkg/operationreport"
+	"github.com/daniil-kzn/graphql-go-tools/pkg/operationreport"
 )
 
 type RequestFieldsValidator interface {

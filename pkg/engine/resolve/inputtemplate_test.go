@@ -7,7 +7,7 @@ import (
 	"github.com/buger/jsonparser"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/wundergraph/graphql-go-tools/pkg/fastbuffer"
+	"github.com/daniil-kzn/graphql-go-tools/pkg/fastbuffer"
 )
 
 func TestInputTemplate_Render(t *testing.T) {

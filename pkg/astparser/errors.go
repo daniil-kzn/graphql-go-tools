@@ -3,9 +3,9 @@ package astparser
 import (
 	"fmt"
 
-	"github.com/wundergraph/graphql-go-tools/pkg/lexer/identkeyword"
-	"github.com/wundergraph/graphql-go-tools/pkg/lexer/keyword"
-	"github.com/wundergraph/graphql-go-tools/pkg/lexer/position"
+	"github.com/daniil-kzn/graphql-go-tools/pkg/lexer/identkeyword"
+	"github.com/daniil-kzn/graphql-go-tools/pkg/lexer/keyword"
+	"github.com/daniil-kzn/graphql-go-tools/pkg/lexer/position"
 )
 
 type origin struct {

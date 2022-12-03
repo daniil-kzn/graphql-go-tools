@@ -16,10 +16,10 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	. "github.com/wundergraph/graphql-go-tools/pkg/engine/datasourcetesting"
-	"github.com/wundergraph/graphql-go-tools/pkg/engine/plan"
-	"github.com/wundergraph/graphql-go-tools/pkg/engine/resolve"
-	"github.com/wundergraph/graphql-go-tools/pkg/testing/subscriptiontesting"
+	. "github.com/daniil-kzn/graphql-go-tools/pkg/engine/datasourcetesting"
+	"github.com/daniil-kzn/graphql-go-tools/pkg/engine/plan"
+	"github.com/daniil-kzn/graphql-go-tools/pkg/engine/resolve"
+	"github.com/daniil-kzn/graphql-go-tools/pkg/testing/subscriptiontesting"
 )
 
 func TestGraphQLDataSource(t *testing.T) {

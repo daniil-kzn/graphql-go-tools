@@ -4,15 +4,16 @@ import (
 	"bytes"
 	"sort"
 
-	"github.com/wundergraph/graphql-go-tools/internal/pkg/unsafebytes"
-	"github.com/wundergraph/graphql-go-tools/pkg/lexer/position"
+	"github.com/daniil-kzn/graphql-go-tools/internal/pkg/unsafebytes"
+	"github.com/daniil-kzn/graphql-go-tools/pkg/lexer/position"
 )
 
 // InterfaceTypeDefinition
 // example:
-// interface NamedEntity {
-// 	name: String
-// }
+//
+//	interface NamedEntity {
+//		name: String
+//	}
 type InterfaceTypeDefinition struct {
 	Description          Description        // optional, describes the interface
 	InterfaceLiteral     position.Position  // interface

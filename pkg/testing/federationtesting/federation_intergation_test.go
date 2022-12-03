@@ -13,10 +13,10 @@ import (
 	"github.com/jensneuse/abstractlogger"
 	"github.com/stretchr/testify/assert"
 
-	accounts "github.com/wundergraph/graphql-go-tools/pkg/testing/federationtesting/accounts/graph"
-	"github.com/wundergraph/graphql-go-tools/pkg/testing/federationtesting/gateway"
-	products "github.com/wundergraph/graphql-go-tools/pkg/testing/federationtesting/products/graph"
-	reviews "github.com/wundergraph/graphql-go-tools/pkg/testing/federationtesting/reviews/graph"
+	accounts "github.com/daniil-kzn/graphql-go-tools/pkg/testing/federationtesting/accounts/graph"
+	"github.com/daniil-kzn/graphql-go-tools/pkg/testing/federationtesting/gateway"
+	products "github.com/daniil-kzn/graphql-go-tools/pkg/testing/federationtesting/products/graph"
+	reviews "github.com/daniil-kzn/graphql-go-tools/pkg/testing/federationtesting/reviews/graph"
 )
 
 func newFederationSetup() *federationSetup {

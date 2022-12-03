@@ -1,10 +1,11 @@
 package httpclient
 
 import (
-	"github.com/stretchr/testify/assert"
-	"github.com/wundergraph/graphql-go-tools/pkg/engine/resolve"
 	"net/http"
 	"testing"
+
+	"github.com/daniil-kzn/graphql-go-tools/pkg/engine/resolve"
+	"github.com/stretchr/testify/assert"
 )
 
 func TestSetRequestHeaders(t *testing.T) {

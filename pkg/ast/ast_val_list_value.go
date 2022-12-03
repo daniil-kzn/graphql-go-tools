@@ -1,6 +1,6 @@
 package ast
 
-import "github.com/wundergraph/graphql-go-tools/pkg/lexer/position"
+import "github.com/daniil-kzn/graphql-go-tools/pkg/lexer/position"
 
 type ListValue struct {
 	LBRACK position.Position // [

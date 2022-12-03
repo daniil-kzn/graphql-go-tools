@@ -8,7 +8,7 @@ import (
 
 	"github.com/99designs/gqlgen/graphql/playground"
 
-	"github.com/wundergraph/graphql-go-tools/examples/federation/accounts/graph"
+	"github.com/daniil-kzn/graphql-go-tools/examples/federation/accounts/graph"
 )
 
 const defaultPort = "4001"

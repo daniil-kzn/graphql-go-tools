@@ -6,8 +6,8 @@ package graph
 import (
 	"context"
 
-	"github.com/wundergraph/graphql-go-tools/examples/federation/accounts/graph/generated"
-	"github.com/wundergraph/graphql-go-tools/examples/federation/accounts/graph/model"
+	"github.com/daniil-kzn/graphql-go-tools/examples/federation/accounts/graph/generated"
+	"github.com/daniil-kzn/graphql-go-tools/examples/federation/accounts/graph/model"
 )
 
 func (r *entityResolver) FindUserByID(ctx context.Context, id string) (*model.User, error) {

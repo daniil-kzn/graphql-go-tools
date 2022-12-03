@@ -7,11 +7,11 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/wundergraph/graphql-go-tools/pkg/ast"
-	"github.com/wundergraph/graphql-go-tools/pkg/astparser"
-	"github.com/wundergraph/graphql-go-tools/pkg/codegen"
-	"github.com/wundergraph/graphql-go-tools/pkg/imports"
-	"github.com/wundergraph/graphql-go-tools/pkg/operationreport"
+	"github.com/daniil-kzn/graphql-go-tools/pkg/ast"
+	"github.com/daniil-kzn/graphql-go-tools/pkg/astparser"
+	"github.com/daniil-kzn/graphql-go-tools/pkg/codegen"
+	"github.com/daniil-kzn/graphql-go-tools/pkg/imports"
+	"github.com/daniil-kzn/graphql-go-tools/pkg/operationreport"
 )
 
 var (

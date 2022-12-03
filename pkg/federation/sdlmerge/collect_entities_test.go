@@ -1,10 +1,10 @@
 package sdlmerge
 
 import (
+	"github.com/daniil-kzn/graphql-go-tools/internal/pkg/unsafeparser"
+	"github.com/daniil-kzn/graphql-go-tools/pkg/astvisitor"
+	"github.com/daniil-kzn/graphql-go-tools/pkg/operationreport"
 	"github.com/stretchr/testify/assert"
-	"github.com/wundergraph/graphql-go-tools/internal/pkg/unsafeparser"
-	"github.com/wundergraph/graphql-go-tools/pkg/astvisitor"
-	"github.com/wundergraph/graphql-go-tools/pkg/operationreport"
 	"testing"
 )
 

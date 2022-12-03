@@ -3,9 +3,9 @@ package astvalidation
 import (
 	"bytes"
 
-	"github.com/wundergraph/graphql-go-tools/pkg/ast"
-	"github.com/wundergraph/graphql-go-tools/pkg/astvisitor"
-	"github.com/wundergraph/graphql-go-tools/pkg/operationreport"
+	"github.com/daniil-kzn/graphql-go-tools/pkg/ast"
+	"github.com/daniil-kzn/graphql-go-tools/pkg/astvisitor"
+	"github.com/daniil-kzn/graphql-go-tools/pkg/operationreport"
 )
 
 // AllVariablesUsed validates if all defined variables are used

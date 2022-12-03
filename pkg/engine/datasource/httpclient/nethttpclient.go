@@ -11,8 +11,8 @@ import (
 	"time"
 
 	"github.com/buger/jsonparser"
-	"github.com/wundergraph/graphql-go-tools/pkg/engine/resolve"
-	"github.com/wundergraph/graphql-go-tools/pkg/lexer/literal"
+	"github.com/daniil-kzn/graphql-go-tools/pkg/engine/resolve"
+	"github.com/daniil-kzn/graphql-go-tools/pkg/lexer/literal"
 )
 
 const (

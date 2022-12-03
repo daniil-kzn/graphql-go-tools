@@ -4,10 +4,10 @@ import (
 	"errors"
 	"net/http"
 
-	"github.com/wundergraph/graphql-go-tools/pkg/ast"
-	graphqlDataSource "github.com/wundergraph/graphql-go-tools/pkg/engine/datasource/graphql_datasource"
-	"github.com/wundergraph/graphql-go-tools/pkg/engine/plan"
-	"github.com/wundergraph/graphql-go-tools/pkg/engine/resolve"
+	"github.com/daniil-kzn/graphql-go-tools/pkg/ast"
+	graphqlDataSource "github.com/daniil-kzn/graphql-go-tools/pkg/engine/datasource/graphql_datasource"
+	"github.com/daniil-kzn/graphql-go-tools/pkg/engine/plan"
+	"github.com/daniil-kzn/graphql-go-tools/pkg/engine/resolve"
 )
 
 const (

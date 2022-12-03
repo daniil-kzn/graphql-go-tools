@@ -3,7 +3,7 @@ package pool
 import (
 	"sync"
 
-	"github.com/wundergraph/graphql-go-tools/pkg/fastbuffer"
+	"github.com/daniil-kzn/graphql-go-tools/pkg/fastbuffer"
 )
 
 var FastBuffer = fastBufferPool{

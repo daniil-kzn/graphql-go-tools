@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/wundergraph/graphql-go-tools/internal/pkg/unsafeparser"
+	"github.com/daniil-kzn/graphql-go-tools/internal/pkg/unsafeparser"
 )
 
 func sortNodesAndFields(nodes []TypeField) {

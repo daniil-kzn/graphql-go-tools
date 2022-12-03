@@ -1,4 +1,4 @@
-module github.com/wundergraph/graphql-go-tools/examples/kafka_pubsub
+module github.com/daniil-kzn/graphql-go-tools/examples/kafka_pubsub
 
 go 1.15
 
